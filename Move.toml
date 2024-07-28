@@ -1,0 +1,17 @@
+[package]
+name = "aptosblockchain"
+version = "1.0.0"
+authors = []
+
+[addresses]
+apt_add = 'cb89dc1665700318d01fc2933ec8f6a4c0d2e91d2d941c2ffc9c2dfb7aec3d79'
+
+[dev-addresses]
+
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
